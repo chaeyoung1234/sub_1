@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@media (min-width:1200px) {
+
+/*헤더*/
+	header {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		background-color: transparent;
+	}
+
+	#smlogo {display: none;}
+	#menu_b {display: none;}
+	#menu_a {display: block;}
+
+	#header {
+		width: 1200px;
+		height: auto;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#logo {
+		display: inline-block;
+	}
+
+	#logo img {
+		width: 200px;
+		height: 64px;
+		padding: 40px 0 0 0px;
+		cursor: pointer;
+	}
+
+
+	#header > #small {width: auto; justify-content: flex-end;}
+
+	/* 네비 */
+	#menu_a li {
+		margin: 20px 0 0 13px;
+		color: rgba(87, 67, 124, 0.63);
+		font-size: 19px;
+		font-weight: bold;
+		display: inline-block;
+	}
+	
+	#menu_a a {color: #fff;}
+	
+	#menu_a a:hover {border-bottom: 2px solid #fff;}
+
+	#menu_a li:nth-of-type(8) {
+		margin: 0 30px 0 10px
+	}
+
+	#menu_a i {
+		color: #FFF;
+		font-size: 18px;
+		text-decoration:none;
+	}
+
+	#menu_a i:hover {
+		opacity: 0.5;
+		cursor: pointer;
+	}
+
+	#menu_c,
+	#menu_b {
+		display: none;
+	}
+
+
+
+/* header > slider*/
+	
+#slider {width: 100%; height: 430px; background: linear-gradient(to right, #f5dada, #c16db0);
+}
+
+#slider_1 {width: 1200px; height:430px; display: flex;
+align-items: center; justify-content: center; margin: 0 auto; }
+
+#slider_1 > img {width: 250px; height: 250px; margin-top: 60px; }
+
+.slider_text > h1 {color: #fff; font-size: 35px; line-height: 65px; margin: 20px 100px 0 0;}
+.slider_text > p {width:60%;font-size: 18px; color: #fff; margin: 0px 100px 0 0;} 
+
+
+
+
+
+/*푸터*/
+
+#text_8 {width: 100%; height: 300px; 
+    background-color: #2b1440; text-align: center;}
+
+#footertext { width:1200px; height:200px; padding-top: 70px; margin: 0 auto;}
+
+#footertext > img {width: 230px; height: 50px; }
+
+#footertext > p {color: #FFF; line-height: 30px; padding: 20px;}
+
+.icon {width: 1200px; height: 50px; display: block; margin-top: 10px; cursor: pointer; }
+
+}
